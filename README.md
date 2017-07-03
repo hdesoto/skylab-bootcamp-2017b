@@ -3,30 +3,15 @@
 # TODO list
 
 [Ir a Google](http://www.google.com)
-#APUNTES BOOTCAMP SKYLAB
+#APUNTES BOOTCAMP SKYLAB (Hernan)
 
 ##CLASE 1
 
-* *** ~~Fijarse Consola UNIX en Windows~~ ***
+* *** ~~Bash en Windows10?~~ ***
 * **Configurar Alias "subl" en Commander***
-* ***Revisar códigos Markdown [Link](https://blog.ghost.org/markdown/)***
+* ***Revisar códigos Markdown [--> Link](https://blog.ghost.org/markdown/)***
 * **dotfiles (para sistemas Unix-like)**
 * *revisar comandos GIT y funcionamiento.*
 * **Otro to-do**
-
-
-
-<table>
-    <tr>
-        <td>Col1</td>
-        <td>Col2</td>
-        <td>Col3</td>
-    </tr>
-        <td>Col12</td>
-        <td>Col22</td>
-        <td>Col32</td>
-</table>
-
-
->Text tipo QUOTE-TEXT
+* ***LATST to-do***
 
