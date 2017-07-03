@@ -12,6 +12,8 @@
 * ***Revisar códigos Markdown [Link](https://blog.ghost.org/markdown/)***
 * **dotfiles (para sistemas Unix-like)**
 * *revisar comandos GIT y funcionamiento.*
+* **Otro to-do**
+
 
 
 <table>
