@@ -10,7 +10,8 @@
 * *** ~~Fijarse Consola UNIX en Windows~~ ***
 * **Configurar Alias "subl" en Commander***
 * ***Revisar códigos Markdown [Link](https://blog.ghost.org/markdown/)***
-
+* **dotfiles (para sistemas Unix-like)**
+* :)
 <table>
     <tr>
         <td>Col1</td>
