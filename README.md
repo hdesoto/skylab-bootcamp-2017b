@@ -11,7 +11,9 @@
 * **Configurar Alias "subl" en Commander***
 * ***Revisar códigos Markdown [Link](https://blog.ghost.org/markdown/)***
 * **dotfiles (para sistemas Unix-like)**
-* :)
+* *revisar comandos GIT y funcionamiento.*
+
+
 <table>
     <tr>
         <td>Col1</td>
