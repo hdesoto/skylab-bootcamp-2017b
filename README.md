@@ -14,5 +14,5 @@
 * **dotfiles (para sistemas Unix-like)**
 * *revisar comandos GIT y funcionamiento.*
 * **Otro to-do**
-* ***LATST to-do***
+* ***LAST to-do***
 
