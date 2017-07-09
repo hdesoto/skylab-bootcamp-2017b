@@ -17,11 +17,17 @@ translate('This is fun');
 
 
 function sum(x){
-	var result = x.reduce(function(result,value){
-		return result + value;
+	var acumulador = x.reduce(function(acumulador,value){
+		return acumulador + value;
 	}, 0);
-	return result;
+	return acumulador;
 }
+
+//Si no se le pasa un valor inicial al acumulador, toma el valor del primer item del Array.
+function sum2(numsArray){
+	return numsArray.reduce(function(acum,val){return acum + val;});
+}
+
 
 function multiply(x){
 	var result = x.reduce(function(result,value){
@@ -57,4 +63,59 @@ translate2('happy new year');
 
 
 
+
+function findLongestWord(array){
+	var longestWord = '';
+	array.forEach(function(word){
+		if(word.length > longestWord.length){
+			longestWord = word;
+		}
+	})
+	return longestWord;
+}
+
+findLongestWord(['hola','que','tal','otorrinolaringologo','onomatopeya','lol','ta']);
+
+
+
+function filterLongWords(array, len){
+	return array.filter(function(word){
+		return word.length >= len;
+	});
+}
+
+filterLongWords(['hola','que','tal','otorrinolaringologo','onomatopeya','lol','ta'],5);
+
+
+
+function charFreq(text){
+	var freq = {};
+	var arrayOfText = text.split('');
+	arrayOfText.map(function(char){
+		if(isNaN(freq[char])){
+			freq[char] = 1;
+		}
+		else{
+			freq[char] += 1;
+		}
+	})
+	return freq;
+}
+
+charFreq("abbabcbdbabdbdbabababcbcbabx");
+
+//Otra solución con 'TERNARIOS'
+
+//Alex
+
+function charFreq2 (str) {
+    var frequency = {}
+    function addFrequency (character) {
+      frequency[character] ? frequency[character]+=1 : frequency[character] = 1
+    }
+    str.split('').forEach(addFrequency)
+    return frequency
+}
+
+charFreq2("asdfasdasaaasdsdfgsdfsd")
 
