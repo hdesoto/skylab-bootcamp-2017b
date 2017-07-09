@@ -86,36 +86,10 @@ console.log(isBoolean('true'));
 
 
 function encodeWord(text){
-	return text.replace(text, function(letter){
-				switch (letter.toUpperCase()){
-					case 'T':
-					//case't':
-						return 7;
-						break;
-					case 'A':
-					//case 'a':
-						return 4;
-						break;
-					case 'S':
-					//case 's':
-						return 5;
-						break;
-					case 'O':
-					//case 'o':
-						return 0;
-						break;
-				}
-			}
-		)
-}  
+	return text.replace(/T/gi,7).replace(/A/gi,4).replace(/S/gi,5).replace(/O/gi,0);
+};  
 
 encodeWord('hello World');
-
-//solucion de Marc
-function encodeWord2(word){
-	var wEncoded = word.replace(/T/gi,7).replace(/A/gi,4).replace(/S/gi,5).replace(/O/gi,0);
-	return wEncoded;
-}
 
 
 
